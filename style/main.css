@@ -55,7 +55,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;   /* Tamanho da fonte */
-    background: linear-gradient(to right,rgba(0,0,0,.99),rgba(0,0,0,.100)100%), url('/img/capa.jpg'); /*add plano de fundo dentro da div  /*add plano de fundo dentro da div */
+    background: linear-gradient(to right,rgba(0,0,0,.99),rgba(0,0,0,.100)100%), url('/img/capa.jpg'); /*add plano de fundo dentro da div*/
 
     height: 600px; /*altura da caixa */
     background-size: cover;   /*Ajusta altomaticamente o tamanho da imagem conforme tamanho da caixa*/
