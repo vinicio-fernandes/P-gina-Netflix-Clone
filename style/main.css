@@ -1,0 +1,148 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #181818;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body{
+    background-color: var(--preta);
+    font-family: 'Helvetica Neue', Helvetica, Arial,sans-serif;
+    color: white;
+}
+
+
+header .container{
+    
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    
+    
+
+}
+
+
+
+.logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaaaaa;
+    margin-right: 30px;
+
+}
+
+header nav a:hover{
+    color: #ffffff;
+}
+
+/*filme principal */
+
+.filme-principal{
+    font-size: 16px;   /* Tamanho da fonte */
+    background: linear-gradient(to right,rgba(0,0,0,.99),rgba(0,0,0,.100)100%), url('/img/capa.jpg'); /*add plano de fundo dentro da div  /*add plano de fundo dentro da div */
+
+    height: 600px; /*altura da caixa */
+    background-size: cover;   /*Ajusta altomaticamente o tamanho da imagem conforme tamanho da caixa*/
+
+    Display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+
+}
+
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+
+.filme-principal .titulo{
+
+    font-size: 40px;
+    margin-left: 20px;
+
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding: 15px 30px;  /* espaçamento na borda, primeiro px altura e segundo largura*/
+    margin-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .50s ease all;
+    
+}
+
+.botao:hover{
+    background-color: white;
+    color: black
+
+}
+
+.botao i{
+    margin-right: 5px;
+    font-size: 15px;
+
+}
+
+
+
+
+.filme-principal .container{
+    width: 75%;
+    
+}
+
+/*
+.box-filme{
+    height: 100%;
+    widows: 100%;
+    display: block;
+
+}
+*/
+
+.box-filme{
+    height: 100%;
+    widows: 100%;
+    display: block;
+
+
+}
+
+
+
+.logo1 {
+    height: 75px;
+    margin-left: 15px;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+
+}
